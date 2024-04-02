@@ -1,0 +1,39 @@
+body {  
+    background-color: #CCFFCC; 
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;  
+}  
+  
+#navigation ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;  
+    overflow: hidden;  
+    background-color: #e4e1e1;  
+}  
+  
+#navigation li {  
+    float: left;  
+}  
+  
+#navigation li a {  
+    display: block;  
+    color: black; /* 链接默认颜色为黑色 */  
+    text-align: center;  
+    padding: 14px 16px;  
+    text-decoration: none;  
+}  
+  
+#navigation li a:hover {  
+    background-color: #4CAF50; /* 鼠标悬停时链接背景色 */  
+    color: white; /* 鼠标悬停时链接文字颜色 */  
+}  
+  
+#navigation li a:visited {  
+    color: #2E8B57; /* 访问过的链接颜色为深绿色 */  
+}  
+  
+#navigation li a:active {  
+    color: #2E8B57; /* 点击时的链接颜色为深绿色 */  
+}
